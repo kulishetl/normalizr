@@ -11,8 +11,6 @@ const studentSchema = new schema.Entity('students', {
   instructors: [instructorSchema],
 });
 
-
-
 const data = [
   {
     id: "student-1",
