@@ -8,7 +8,6 @@ const courseSchema = new schema.Entity('courses', {
 
 const studentSchema = new schema.Entity('students', {
   courses: [courseSchema],
-  instructors: [instructorSchema],
 });
 
 const data = [
