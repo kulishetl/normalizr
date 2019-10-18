@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "normalizr": "^3.2.4",
-    "parcel-bundler": "^1.9.2"
+    "parcel-bundler": "^1.9.2",
+    "safer-eval": "^1.2.3"
   }
 }
